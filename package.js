@@ -12,6 +12,6 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('0.9.0');
   api.addFiles('server/index.js', 'server');
-  api.addFiles(['client/opentok.js', 'client/opentok-layout.js'], 'client');
+  api.addFiles(['client/opentok.2.8.0.js', 'client/opentok-layout.js'], 'client');
   api.export(['OpenTok', 'OpenTokClient'], 'server');
 });
